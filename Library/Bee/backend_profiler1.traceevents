@@ -1,0 +1,675 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1670983065376203, "dur":1166, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983065377379, "dur":102, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1670983065377519, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1670983065377544, "dur":577, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1670983065378151, "dur":704, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983065378855, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585347, "dur":345, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585692, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585703, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585707, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585713, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585715, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585721, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585723, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585729, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585730, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585735, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585737, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585743, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585745, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585751, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585753, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585758, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585759, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585764, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585766, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585772, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585774, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585780, "dur":44, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585824, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585831, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585846, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066585862, "dur":2250, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1670983065378497, "dur":415, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983065378913, "dur":6049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983065384982, "dur":1368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1670983065386353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983065387416, "dur":3366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1670983065390825, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1670983065390971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983065392097, "dur":3527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1670983065395673, "dur":149901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/UnityCrashHandler64.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1670983065545578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983065545586, "dur":2144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/UnityCrashHandler64.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1670983065547771, "dur":25903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983065573677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983065573682, "dur":14633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983065588342, "dur":12709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983065601055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983065601063, "dur":145996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983065747120, "dur":10979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983065758103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983065758111, "dur":6646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983065764809, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983065765004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983065765012, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983065766533, "dur":9391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983065775931, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983065775942, "dur":6066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983065782047, "dur":11844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983065793895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983065793903, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983065795001, "dur":33885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983065828891, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983065828901, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983065830432, "dur":9647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1670983065840084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983065840094, "dur":766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1670983065840886, "dur":6440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983065847331, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983065847340, "dur":7387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983065854801, "dur":6626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1670983065861431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983065861440, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1670983065862233, "dur":14494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983065876731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983065876739, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983065877713, "dur":131145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983066008865, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983066008878, "dur":3498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670983066012420, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1670983066012469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983066012478, "dur":4471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1670983066016983, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1670983066017108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670983066017118, "dur":4405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1670983066021554, "dur":563799, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065378413, "dur":468, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065378882, "dur":6102, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065384985, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1670983065385224, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065387089, "dur":4268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1670983065391401, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1670983065391506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065391511, "dur":5468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1670983065397030, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1670983065397156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065404162, "dur":51530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1670983065455727, "dur":16196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065471928, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065471936, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065472901, "dur":17342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065490250, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065490261, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065491560, "dur":15624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065507189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065507196, "dur":23054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065530302, "dur":23661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065553968, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065553976, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065555004, "dur":16299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065571308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065571316, "dur":16927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065588278, "dur":12882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065601164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065601170, "dur":146387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065747592, "dur":11117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065758712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065758717, "dur":6191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065764939, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065765094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065765100, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065766314, "dur":58175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065824506, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065824523, "dur":1870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065826426, "dur":9372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1670983065835804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065835813, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1670983065836713, "dur":6494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1670983065843211, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065843226, "dur":12027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1670983065855314, "dur":2807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065858127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065858136, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065859196, "dur":20867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065880067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065880169, "dur":11764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065891965, "dur":11921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065903893, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065903904, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065904855, "dur":8969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonVoice.PUN.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065913828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065913834, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonVoice.PUN.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065914601, "dur":16040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonVoice.API.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1670983065930645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065930653, "dur":747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonVoice.API.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1670983065931427, "dur":16052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065947483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065947490, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983065948403, "dur":12043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1670983065960451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065960459, "dur":770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1670983065961258, "dur":28072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1670983065989336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983065989344, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1670983065990336, "dur":15251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Plugins/x86_64/opus_egpv.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983066005593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983066005769, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Plugins/x86_64/opus_egpv.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670983066007199, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1670983066007278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983066007286, "dur":718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1670983066008029, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1670983066008058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983066008064, "dur":3096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1670983066011194, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1670983066011341, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983066011348, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1670983066012637, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1670983066012675, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983066012681, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1670983066013891, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1670983066013958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983066013969, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1670983066014945, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1670983066014984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670983066014994, "dur":1967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1670983066017004, "dur":568335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670983065378485, "dur":417, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670983065378903, "dur":6063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670983065384967, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1670983065385269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670983065388168, "dur":3822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1670983065392044, "dur":1157241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/UnityPlayer_Win64_player_development_mono_x64.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1670983066549291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670983066549299, "dur":35961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/UnityPlayer_Win64_player_development_mono_x64.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1670983066585292, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1670983066585293, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065378590, "dur":343, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065378933, "dur":6053, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065384987, "dur":1473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1670983065386463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065387118, "dur":3806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1670983065390975, "dur":1564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1670983065392544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065392553, "dur":3830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1670983065396491, "dur":594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI.exe" }}
+,{ "pid":12345, "tid":4, "ts":1670983065397089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065397097, "dur":8370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI.exe" }}
+,{ "pid":12345, "tid":4, "ts":1670983065405540, "dur":39974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065445519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065445637, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065446603, "dur":19152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065465759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065465775, "dur":5491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065471305, "dur":17356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065488665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065488673, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065489506, "dur":12224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065501735, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065501745, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065502945, "dur":22318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065525268, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065525277, "dur":5238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065530547, "dur":15603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1670983065546155, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065546165, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1670983065547248, "dur":27323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065574576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065574583, "dur":13435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065588065, "dur":12355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065600425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065600434, "dur":27896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065628389, "dur":120468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065748862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065748872, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065750024, "dur":8125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065758152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065758158, "dur":6406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065764598, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065764728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065764732, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065766033, "dur":9736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065775774, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065775786, "dur":5992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065781832, "dur":8985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065790825, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065790839, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065792337, "dur":8514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1670983065800875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065800884, "dur":5013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1670983065805925, "dur":13657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065819585, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065819593, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065820660, "dur":11188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065831851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065831857, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065833038, "dur":9863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065842905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983065842910, "dur":12412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983065855366, "dur":169274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983066024647, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670983066024658, "dur":4862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670983066029574, "dur":555776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670983065378459, "dur":433, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670983065378892, "dur":6084, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670983065384983, "dur":1695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1670983065386681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670983065387674, "dur":3574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1670983065391293, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1670983065391386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670983065391392, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1670983065392985, "dur":1154097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670983066547087, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670983066547095, "dur":32019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670983066579152, "dur":6195, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065378407, "dur":461, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065378868, "dur":6125, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065384995, "dur":1338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1670983065386338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065387041, "dur":3748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1670983065390853, "dur":1002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1670983065391859, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065392155, "dur":3722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1670983065395949, "dur":120434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1670983065516388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065516395, "dur":1883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1670983065518307, "dur":22214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983065540526, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065540535, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983065541532, "dur":26694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983065568234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065568243, "dur":18977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983065587251, "dur":8971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983065596227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065596235, "dur":910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983065597171, "dur":18224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983065615401, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065615433, "dur":132217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983065747760, "dur":8490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983065756253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065756258, "dur":7690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983065763989, "dur":13014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983065777007, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065777014, "dur":4881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983065781931, "dur":10931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983065792869, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065792880, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983065793968, "dur":24089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1670983065818062, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065818073, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1670983065819359, "dur":11187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1670983065830549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065830557, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1670983065831473, "dur":7589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1670983065839066, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065839075, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1670983065840282, "dur":3060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983065843404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065843410, "dur":11548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983065855019, "dur":4518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1670983065859540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065859546, "dur":1381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1670983065860971, "dur":12893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983065873869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983065873878, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983065874924, "dur":147537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983066022469, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670983066022481, "dur":3911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670983066026443, "dur":558894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065378552, "dur":371, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065378923, "dur":6045, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065384969, "dur":1430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1670983065386403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065387656, "dur":3352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1670983065391061, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1670983065391183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065391668, "dur":4383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1670983065396118, "dur":149498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/NVUnityPlugin.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065545619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065545623, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/NVUnityPlugin.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065547777, "dur":26455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065574235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065574240, "dur":13485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065587774, "dur":13182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065600963, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065600976, "dur":146088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065747130, "dur":8991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065756126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065756134, "dur":7887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065764071, "dur":10147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065774222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065774231, "dur":6854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065781142, "dur":8943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065790090, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065790098, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065791455, "dur":8222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1670983065799683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065799693, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1670983065800861, "dur":15480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065816347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065816357, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065817452, "dur":3142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065820599, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065820608, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065821596, "dur":10178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1670983065831779, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065831788, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1670983065833028, "dur":10239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1670983065843270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065843275, "dur":11296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1670983065854617, "dur":2745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065857369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065857378, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065858511, "dur":11543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065870061, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065870072, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065871360, "dur":12283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065883647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065883654, "dur":8592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065892284, "dur":73788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065966077, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065966085, "dur":1809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065967941, "dur":12898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065980846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065980857, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983065982007, "dur":13828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1670983065995854, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983065995869, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1670983065997379, "dur":28246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Plugins/x86_64/webrtc-audio.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983066025633, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670983066025649, "dur":2180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Plugins/x86_64/webrtc-audio.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670983066027923, "dur":557441, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065378641, "dur":303, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065378945, "dur":6058, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065385004, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1670983065385414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065388129, "dur":3525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1670983065391726, "dur":38077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065429810, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065430102, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065431489, "dur":26790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065458283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065458291, "dur":12555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065470896, "dur":17160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065488083, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065488091, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065489108, "dur":12643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065501754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065501788, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065502853, "dur":30974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065533833, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065533842, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065535015, "dur":19567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065554589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065554598, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065555608, "dur":28427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065584042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065584051, "dur":4187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065588275, "dur":12723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065601001, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065601007, "dur":145954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065747019, "dur":8958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065755982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065755991, "dur":7123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065763152, "dur":7675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065770832, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065770841, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065771791, "dur":9359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065781156, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065781169, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065782465, "dur":9834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065792303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065792312, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065793490, "dur":19701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065813196, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065813206, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065814450, "dur":27164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065841619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065841627, "dur":12699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065854361, "dur":5188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1670983065859552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065859558, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1670983065860851, "dur":21464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065882318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065882323, "dur":10076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065892426, "dur":26590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065919023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065919033, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065920377, "dur":14950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1670983065935331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065935338, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1670983065936710, "dur":17825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1670983065954541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065954549, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1670983065955531, "dur":15006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1670983065970542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065970550, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1670983065971516, "dur":24582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065996104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983065996115, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065997535, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Plugins/x86_64/AudioIn.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983065997729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983066000955, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Plugins/x86_64/AudioIn.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670983066002029, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1670983066002060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983066002094, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1670983066003254, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1670983066003281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983066003288, "dur":5987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1670983066009311, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1670983066009355, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983066009364, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1670983066010599, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1670983066010794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983066010806, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1670983066011795, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/resources.resource" }}
+,{ "pid":12345, "tid":8, "ts":1670983066011839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983066011848, "dur":2660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/resources.resource" }}
+,{ "pid":12345, "tid":8, "ts":1670983066014549, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1670983066014592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983066014602, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1670983066016048, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1670983066016090, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670983066016103, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1670983066017421, "dur":567919, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065378688, "dur":267, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065378956, "dur":6025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065384983, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1670983065385256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065387678, "dur":4254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1670983065391986, "dur":23906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/WindowsPlayer_player_Release_mono_x64.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1670983065415900, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065415909, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/WindowsPlayer_player_Release_mono_x64.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1670983065417311, "dur":24182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065441498, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065441794, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065442626, "dur":22194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065464824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065464830, "dur":6360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065471232, "dur":19011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065490250, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065490261, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065491485, "dur":15685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065507175, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065507185, "dur":23052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065530303, "dur":97082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065627391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065627399, "dur":121087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065748513, "dur":8390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065756909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065756916, "dur":7248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065764195, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065764333, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065764337, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065765831, "dur":12202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065778037, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065778070, "dur":4035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065782162, "dur":20038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065802205, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065802215, "dur":3833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065806076, "dur":23084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1670983065829164, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065829173, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1670983065830310, "dur":8574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065838887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065838895, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065839957, "dur":3436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065843408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065843413, "dur":11863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065855336, "dur":8841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065864181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065864189, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065865215, "dur":16024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065881244, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065881252, "dur":11074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065892357, "dur":13421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065905781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065905788, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065906780, "dur":13225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonVoice.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1670983065920012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065920025, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonVoice.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1670983065920900, "dur":15597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065936503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065936512, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065937477, "dur":18058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1670983065955538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065955545, "dur":697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1670983065956265, "dur":26308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065982578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065982586, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065983574, "dur":14848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983065998425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983065998431, "dur":2940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670983066001405, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1670983066001523, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983066001734, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1670983066002629, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1670983066002670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670983066002677, "dur":23927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1670983066026632, "dur":558706, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065378743, "dur":222, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065378966, "dur":6005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065384974, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1670983065385257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065387518, "dur":4294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1670983065391882, "dur":3575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065395462, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065395469, "dur":9291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065404802, "dur":58494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065463301, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065463317, "dur":8033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065471375, "dur":21654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065493034, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065493043, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065493969, "dur":22646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065516618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065516624, "dur":13983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065530642, "dur":49430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065580077, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065580085, "dur":8132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065588258, "dur":17361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065605624, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065605633, "dur":141942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065747613, "dur":8623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065756239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065756244, "dur":7805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065764085, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065764293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065764302, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065765947, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065766091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065766098, "dur":747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065766872, "dur":9716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065776592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065776598, "dur":5017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065781674, "dur":9229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065790907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065790913, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065792323, "dur":7372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065799700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065799709, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065800971, "dur":14705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1670983065815680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065815688, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1670983065816529, "dur":7421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1670983065823957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065823968, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1670983065825021, "dur":6733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065831758, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065831772, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065832933, "dur":4030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065836968, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065836978, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065837842, "dur":5307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1670983065843152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065843157, "dur":11672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1670983065854952, "dur":4502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065859459, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065859469, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065860881, "dur":57096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065917985, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065917998, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065919846, "dur":15357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonVoice.API.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065935209, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065935220, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonVoice.API.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065936867, "dur":16792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065953665, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065953675, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065954694, "dur":12607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065967308, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983065967321, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983065968438, "dur":187915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983066156358, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670983066156367, "dur":3578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670983066159973, "dur":425383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670983065378806, "dur":171, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670983065378977, "dur":6013, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670983065384996, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1670983065385225, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670983065386837, "dur":4873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1670983065391791, "dur":464625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670983065856420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670983065856531, "dur":5982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670983065862541, "dur":8236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670983065870783, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670983065870793, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670983065871903, "dur":30951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670983065902861, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670983065902873, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670983065904256, "dur":8464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonVoice.PUN.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1670983065912725, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670983065912733, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonVoice.PUN.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1670983065913552, "dur":15590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonVoice.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670983065929146, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670983065929155, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonVoice.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670983065930125, "dur":14585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1670983065944715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670983065944723, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1670983065945551, "dur":15738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670983065961292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670983065961299, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670983065962185, "dur":47652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670983066009846, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670983066009869, "dur":2336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670983066012261, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1670983066012326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670983066012335, "dur":122870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1670983066237324, "dur":348028, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670983065378856, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670983065378857, "dur":6088, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670983065384967, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1670983065384969, "dur":286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670983065385266, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1670983065385270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670983065388006, "dur":2897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/AGORAVAI_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1670983065390904, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1670983065391271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670983065391688, "dur":4402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1670983065396145, "dur":652047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/nvngx_dlss.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670983066048197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670983066048204, "dur":9100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/minimazo/nvngx_dlss.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670983066057335, "dur":528022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670983066589426, "dur":1915, "ph":"X", "name": "ProfilerWriteOutput" }
+,

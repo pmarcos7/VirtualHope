@@ -1,0 +1,12 @@
+{
+  "name": "com.arcaedion.multiplayer.example",
+  "displayName": "Arcaedion Multiplayer Base",
+  "version": "1.0.0",
+  "unity": "2017.4",
+  "keywords": [
+    "arcaedion",
+    "multiplayer"
+  ],
+  "description": "Arcaedion Multiplayer Base is a set of base assets to follow the online multiplayer development course.",
+  "unityRelease": "7f0"
+}

@@ -1,0 +1,636 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1664050941470385, "dur":1114, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941471507, "dur":70, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1664050941471605, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1664050941471624, "dur":636, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1664050941472290, "dur":781, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941473072, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931396, "dur":450, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931846, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931865, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931868, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931877, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931880, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931887, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931890, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931896, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931898, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931905, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931907, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931917, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931923, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931931, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931933, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931940, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931944, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931950, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931952, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931958, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931960, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931966, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931968, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931975, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941931991, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941932011, "dur":3054, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1664050941472804, "dur":279, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941473084, "dur":5695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941478780, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1664050941479123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941483116, "dur":5531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1664050941488683, "dur":633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1664050941489320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941489495, "dur":38303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1664050941527860, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941527912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941527921, "dur":58133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941586099, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941586389, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941586393, "dur":31797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941618237, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941618331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941618335, "dur":17428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941635795, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941635845, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941635850, "dur":24121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941660012, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941660060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941660072, "dur":10878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941670990, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941671042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941671054, "dur":16284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941687388, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664050941687781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941687790, "dur":3299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664050941691133, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664050941691292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941691298, "dur":3070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664050941694424, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941694575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941694585, "dur":5949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941700587, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941700753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941700765, "dur":6791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941707605, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941707651, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941707661, "dur":4838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941712562, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664050941712844, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941712907, "dur":13267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664050941726210, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941726257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941726266, "dur":10417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664050941736937, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1664050941737132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941737142, "dur":13992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1664050941751190, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1664050941751322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664050941751330, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1664050941752095, "dur":179303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941472975, "dur":133, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941473108, "dur":5617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941478733, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1664050941479013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941482433, "dur":6166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1664050941488640, "dur":664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1664050941489308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941489481, "dur":38633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1664050941528183, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941528233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941528241, "dur":40698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941568968, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941569000, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941569008, "dur":48172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941617228, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941617285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941617299, "dur":10010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941627345, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941627384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941627392, "dur":17013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941644445, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941644499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941644506, "dur":21080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941665621, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941665672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941665714, "dur":15054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941680819, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941680907, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941680923, "dur":9860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941690831, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664050941691251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941691258, "dur":3355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664050941694646, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941694796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941694800, "dur":7540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941702418, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941702578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941702586, "dur":5506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941708130, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941708173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941708183, "dur":12618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941720858, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664050941721222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941721230, "dur":9486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664050941730751, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941731064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941731072, "dur":6536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664050941737647, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1664050941738022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664050941738032, "dur":87689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1664050941825757, "dur":105662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664050941472887, "dur":202, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664050941473089, "dur":5653, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664050941478745, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1664050941479055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664050941482410, "dur":7369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1664050941489835, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664050941489942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664050941490115, "dur":120615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664050941610755, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664050941610781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664050941610788, "dur":21387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664050941632207, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664050941632713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664050941632728, "dur":22954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664050941655730, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664050941655776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664050941655787, "dur":10483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664050941666300, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664050941666329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664050941666337, "dur":19939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664050941686335, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664050941686574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664050941686586, "dur":3722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664050941690340, "dur":519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664050941690863, "dur":48, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664050941690920, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664050941693567, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1664050941693727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664050941693741, "dur":5515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1664050941699292, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1664050941699447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664050941699452, "dur":7110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1664050941706605, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664050941706727, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664050941706737, "dur":3986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664050941710763, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1664050941710989, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664050941711003, "dur":14844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1664050941725899, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1664050941725944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664050941725955, "dur":10534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1664050941736538, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1664050941736732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664050941736765, "dur":58577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1664050941795394, "dur":136098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941472950, "dur":149, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941473099, "dur":5622, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941478723, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1664050941478927, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941482182, "dur":5827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1664050941488108, "dur":1069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1664050941489182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941489418, "dur":38457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1664050941527905, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941527933, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941527937, "dur":40978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941568964, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941569021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941569030, "dur":48254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941617397, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941617465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941617477, "dur":18171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941635695, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941635732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941635740, "dur":20470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941656257, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941656297, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941656323, "dur":14786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941671155, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941671194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941671205, "dur":15653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941686911, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941687339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941687353, "dur":4019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941691431, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941691669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941691675, "dur":6346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941698069, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664050941698352, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941698362, "dur":4044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664050941702469, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941702508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941702519, "dur":5609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941708163, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941708202, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941708208, "dur":12686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941721089, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941721332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941721365, "dur":10258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664050941731674, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1664050941731871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941735334, "dur":2109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1664050941737500, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1664050941737683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941737690, "dur":1750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1664050941739490, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1664050941739666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664050941739676, "dur":16897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1664050941756633, "dur":174764, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664050941473017, "dur":100, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664050941473117, "dur":5547, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664050941478667, "dur":564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1664050941479276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664050941484711, "dur":5285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1664050941490094, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1664050941490175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664050941490189, "dur":34362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1664050941524587, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664050941524635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664050941524644, "dur":44330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664050941569010, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664050941569048, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664050941569054, "dur":45587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664050941614674, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664050941614703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664050941614712, "dur":12610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664050941627383, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664050941627438, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664050941627447, "dur":28729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664050941656213, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664050941656254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664050941656263, "dur":14703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664050941671075, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664050941671137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664050941671146, "dur":16242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664050941687429, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664050941687470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664050941687477, "dur":4138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664050941691651, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1664050941691966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664050941691974, "dur":6058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1664050941698284, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1664050941698441, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664050941698445, "dur":4955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1664050941703454, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664050941703491, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664050941703497, "dur":5578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664050941709113, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664050941709153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664050941709165, "dur":11357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664050941720717, "dur":551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1664050941721272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664050941721281, "dur":11421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1664050941732749, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1664050941733027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664050941733038, "dur":107321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1664050941840434, "dur":90962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664050941473072, "dur":2, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664050941473074, "dur":5495, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664050941478601, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1664050941478603, "dur":429, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664050941479042, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1664050941479047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664050941481964, "dur":5831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1664050941487800, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1664050941487954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664050941489203, "dur":2266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1664050941491502, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/nvngx_dlss.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941491597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664050941491604, "dur":126581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/nvngx_dlss.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941618237, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941618278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664050941618287, "dur":37376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941655712, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941655766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664050941655781, "dur":10568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941666399, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941666482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664050941666489, "dur":19198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941685754, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1664050941685980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664050941685995, "dur":2479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1664050941688519, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941688886, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664050941688899, "dur":3485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941692422, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941692612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664050941692620, "dur":6295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941698981, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941699186, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664050941699196, "dur":4031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941703267, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941703316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664050941703330, "dur":16765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941720142, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941720392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664050941720403, "dur":9875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941730324, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941730365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664050941730375, "dur":10029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664050941740436, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1664050941740588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664050941740599, "dur":16179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1664050941756823, "dur":174675, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664050941473129, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664050941473130, "dur":5528, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664050941478662, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1664050941478907, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664050941481972, "dur":7994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1664050941490023, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664050941490150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664050941490156, "dur":214468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664050941704673, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664050941704714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664050941704726, "dur":4335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664050941709110, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664050941709156, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664050941709191, "dur":11179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664050941720415, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664050941720662, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664050941720669, "dur":9821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664050941730520, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1664050941730846, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664050941730857, "dur":6696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1664050941737603, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1664050941738021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664050941738032, "dur":193252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1664050941931345, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1664050941931347, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941473180, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941473181, "dur":5528, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941478712, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1664050941479152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941484137, "dur":4825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1664050941489011, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1664050941489191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941489201, "dur":2204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1664050941491444, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/NVUnityPlugin.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941491599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941491605, "dur":46867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/NVUnityPlugin.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941538520, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941538554, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941538562, "dur":47274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941585888, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941585946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941585957, "dur":36810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941622816, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941622866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941622873, "dur":13189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941636107, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941636162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941636169, "dur":28550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941664775, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941664813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941664831, "dur":10450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941675325, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941675368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941675380, "dur":11981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941687404, "dur":715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941688130, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941688145, "dur":4294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941692473, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941692724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941692733, "dur":6488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941699273, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941699423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941699431, "dur":6318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941705787, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941705837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941705847, "dur":4465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941710365, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941710417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941710424, "dur":10353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941720817, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941721186, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941721198, "dur":11564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664050941732809, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1664050941733029, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664050941733038, "dur":64566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1664050941797649, "dur":133794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941473239, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941473239, "dur":5395, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941478639, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1664050941479033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941482134, "dur":6889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1664050941489092, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1664050941489192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941489201, "dur":3232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1664050941492464, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI.exe" }}
+,{ "pid":12345, "tid":9, "ts":1664050941492496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941492503, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI.exe" }}
+,{ "pid":12345, "tid":9, "ts":1664050941494044, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941494082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941494324, "dur":2536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941496937, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941496998, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941497134, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941498619, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941498676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941498684, "dur":14523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941513261, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941513354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941513368, "dur":1855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941515262, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941515298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941515308, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941516857, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941516892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941516902, "dur":35168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941552108, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941552134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941552141, "dur":49435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941601614, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941601652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941601660, "dur":20988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941622682, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941622726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941622737, "dur":13356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941636129, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941636165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941636170, "dur":28534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941664750, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941664853, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941664896, "dur":16003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941680951, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941681048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941681055, "dur":18493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941699593, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1664050941699756, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941699762, "dur":7051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1664050941706866, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941706910, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941706916, "dur":3388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941710354, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941710398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941710412, "dur":15768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941726220, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941726249, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941726257, "dur":10277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664050941736587, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1664050941736751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941736764, "dur":13531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1664050941750346, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1664050941750563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664050941750572, "dur":39266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1664050941789877, "dur":141601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664050941473282, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664050941473282, "dur":5363, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664050941478651, "dur":557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1664050941479269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664050941484284, "dur":5649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1664050941489987, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941490133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664050941490139, "dur":2848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941493030, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1664050941493127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664050941493365, "dur":94048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1664050941587438, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941587464, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664050941587469, "dur":34763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941622288, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941622336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664050941622380, "dur":21997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941644423, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941644481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664050941644494, "dur":21318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941665860, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941665901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664050941665909, "dur":15162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941681115, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941681146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664050941681154, "dur":9125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941690315, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1664050941690713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664050941690728, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1664050941693234, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1664050941693409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664050941693419, "dur":6106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1664050941699563, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941699701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664050941699707, "dur":6900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941706660, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941706766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664050941706776, "dur":3563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941710381, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941710431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664050941710440, "dur":10956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941721440, "dur":2722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941724170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664050941724182, "dur":7719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664050941731941, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1664050941732113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664050941735266, "dur":24167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1664050941759477, "dur":171925, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664050941473326, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664050941473326, "dur":5278, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664050941478613, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1664050941478936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664050941482451, "dur":5564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1664050941488101, "dur":1098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1664050941489202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664050941489389, "dur":38417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1664050941527866, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664050941527910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664050941527919, "dur":58141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664050941586098, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1664050941586350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664050941586356, "dur":36272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1664050941622831, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664050941622904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664050941622914, "dur":16628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664050941639618, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664050941639656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664050941639665, "dur":25075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664050941664890, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664050941664959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664050941664969, "dur":15382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664050941680386, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664050941680434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664050941680449, "dur":7711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664050941688201, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1664050941688437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664050941688446, "dur":3949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1664050941692435, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1664050941692611, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664050941692620, "dur":6221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1664050941698927, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664050941699160, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664050941699171, "dur":6603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664050941705822, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664050941705866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664050941705875, "dur":6001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664050941711923, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664050941712315, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664050941712332, "dur":9028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664050941721402, "dur":13744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1664050941735154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664050941735164, "dur":2584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1664050941737825, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1664050941738067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664050941738077, "dur":13306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1664050941751436, "dur":179954, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941473370, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941473371, "dur":5248, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941478625, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1664050941479153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941483514, "dur":6031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1664050941489591, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941489751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941490088, "dur":16311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941506434, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941506474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941506483, "dur":6695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941513224, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941513302, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941513352, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941515280, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941515330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941515338, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941516849, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941516894, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941516902, "dur":35066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941552004, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941552068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941552076, "dur":49447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941601557, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941601589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941601597, "dur":33893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941635610, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941635649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941635660, "dur":20837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941656531, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941656564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941656571, "dur":9760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941666368, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941666417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941666426, "dur":20261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941686742, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1664050941687240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941687252, "dur":3760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1664050941691056, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941691216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941691226, "dur":3341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941694604, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1664050941694756, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941694762, "dur":5767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1664050941700598, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1664050941700754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941700765, "dur":6355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1664050941707207, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941707273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941707287, "dur":12831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941720164, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1664050941720668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941720676, "dur":9614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1664050941730350, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941730390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941730396, "dur":5971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664050941736420, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1664050941736659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941736671, "dur":11532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1664050941748261, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1664050941748412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664050941748419, "dur":38211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pmarc/OneDrive/rea de Trabalho/atualizado_jogo/AGORAVAI_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1664050941786691, "dur":144774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664050941936582, "dur":2567, "ph":"X", "name": "ProfilerWriteOutput" }
+,
